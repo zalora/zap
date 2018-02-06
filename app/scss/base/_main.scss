@@ -1,0 +1,116 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: "Lato", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 200;
+    line-height: 1.7857;
+    letter-spacing: 0.075em;
+    color: #333333;
+    background-color: #fff;
+}
+
+a {
+    color: #000;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+
+    &:hover {
+       color: #000;
+    }
+
+    &:active, &:hover, &:focus {
+      color: #000;
+      outline: 0;
+      border: 0;
+      text-decoration: none;
+    }
+
+}
+
+p {
+    line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+input, textarea {
+    outline: none;
+}
+
+label {
+    font-weight: 300;
+}
+
+.btn-send {
+    background-color: #383838;
+    border-radius: 0;
+    border: 0;
+    color: #fff;
+    padding: 8px 14px;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+
+    &:hover {
+      background-color: #000;
+      color: #fff;
+    }
+}
+
+#st-preloader {
+    background: #FFF;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 9999;
+}
+
+#pre-status {
+    background-image: url(../images/preloader.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 40px;
+    left: 50%;
+    margin: -20px 0 0 -20px;
+    position: absolute;
+    top: 50%;
+    width: 40px;
+}
+
+.preload-placeholder {
+    background-image: url(../images/preloader.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 40px;
+    left: 50%;
+    margin: -20px 0 0 -20px;
+    position: absolute;
+    top: 50%;
+    width: 40px;
+    background: none;
+    left: 0;
+    margin: 0;
+    text-align: center;
+    top: 65%;
+}
+
+.st-border {
+    width: 34px;
+    height: 1px;
+    display: block;
+    background-color: #000;
+}

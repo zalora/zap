@@ -1,0 +1,11 @@
+<section id="slider">
+    <div id="hero" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="item active" style="background-image: url(images/slider/introduction.jpg)"></div>
+            <div class="item" style="background-image: url(images/slider/awareness.jpg)"></div>
+            <div class="item" style="background-image: url(images/slider/performance.jpg)"></div>
+            <a class="hero-carousel-left-icon" href="#hero" data-slide="prev"><i class="fa fa-angle-left"></i></a>
+            <a class="hero-carousel-right-icon" href="#hero" data-slide="next"><i class="fa fa-angle-right"></i></a>
+        </div>
+    </div>
+</section>

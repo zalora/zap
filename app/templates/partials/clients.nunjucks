@@ -1,0 +1,42 @@
+<section id="our-works">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <div class="section-title">
+                    <h1>Our Clients</h1>
+                </div>
+            </div>
+
+            <div class="col-md-12">
+                <div class="col-sm-3 col-xs-6">
+                    <img class="img-responsive" src="images/clients/logo_436x248_calvinklein.jpg" alt="">
+                </div>
+                <div class="col-sm-3 col-xs-6">
+                    <img class="img-responsive" src="images/clients/logo_436x248_prive.jpg" alt="">
+                </div>
+                <div class="col-sm-3 col-xs-6">
+                    <img class="img-responsive" src="images/clients/logo_436x248_fossil.jpg" alt="">
+                </div>
+                <div class="col-sm-3 col-xs-6">
+                    <img class="img-responsive" src="images/clients/logo_436x248_esprit.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="col-md-12">
+                <div class="col-sm-3 col-xs-6">
+                    <img class="img-responsive" src="images/clients/logo_436x248_aldo.jpg" alt="">
+                </div>
+                <div class="col-sm-3 col-xs-6">
+                    <img class="img-responsive" src="images/clients/logo_436x248_callitspring.jpg" alt="">
+                </div>
+                <div class="col-sm-3 col-xs-6">
+                    <img class="img-responsive" src="images/clients/logo_436x248_danielwellington.jpg" alt="">
+                </div>
+                <div class="col-sm-3 col-xs-6">
+                    <img class="img-responsive" src="images/clients/logo_436x248_tokichoi.jpg" alt="">
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>

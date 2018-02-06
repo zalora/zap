@@ -1,0 +1,86 @@
+<section id="unique-selling-points">
+    <div class="container">
+
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <div class="section-title">
+                    <h1>Why Us ?</h1>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <div class="col-md-4 col-sm-6 usp">
+                    <h2>Strong Presence</h2>
+                    <p>Our reach extends across six growing markets in Asia and currently comprises 41 million monthly visitors.</p>
+                </div>
+
+                <div class="col-md-4 col-sm-6 usp">
+                    <h2>Receptive Audience</h2>
+                    <p>We have an established and fast-growing customer base that’s fashion-focused and ready for more.</p>
+                </div>
+
+                <div class="col-md-4 col-sm-6 usp">
+                    <h2>Industry Recognition</h2>
+                    <p>We are a multi award-winning fashion retailer, with accolades in the areas of customer experience, loyalty and engagement.</p>
+                </div>
+            </div>
+
+            <div class="col-md-12">
+                <div class="col-md-4 col-sm-6 usp">
+                    <h2>Leading Fashion Authority</h2>
+                    <p>We shape the industry through collaborations with fashion shows (e.g. Singapore Fashion Week, Jakarta Fashion Week) in the region.</p>
+                </div>
+
+                <div class="col-md-4 col-sm-6 usp">
+                    <h2>Extensive Experience</h2>
+                    <p>We constantly improve our marketing efforts, building on all we’ve learnt since day one and investing in the best marketing tools available.</p>
+                </div>
+
+                <div class="col-md-4 col-sm-6 usp">
+                    <h2>Cost Effectiveness</h2>
+                    <p>We guarantee zero agency/additional fees, ensuring that 100% of your budget is channeled towards your campaigns on the right channels.</p>
+                </div>
+
+            </div>
+
+            <div class="col-md-12">
+                <div class="col-md-4 col-sm-6 usp">
+                    <h2>Trustworthiness</h2>
+                    <p>We have an outstanding reputation and partner closely with Facebook, Google, and Instagram, having early access to their newest features.</p>
+                </div>
+
+                <div class="col-md-4 col-sm-6 usp">
+                    <h2>Unparalleled Efficiency</h2>
+                    <p>We cut out the clutter and bring customers directly to your brand catalog or shop-in-shop page.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- fake spacer -->
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <div class="section-title">
+                    <h1></h1>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <div class="section-title">
+                    <h1></h1>
+                </div>
+            </div>
+        </div>
+
+        <div class="row text-center">
+            <div class="col-md-offset-2 col-md-8 col-md-offset-2">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/FUdpx010ETY?rel=0" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>

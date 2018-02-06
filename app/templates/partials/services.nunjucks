@@ -1,0 +1,119 @@
+<section id="our-services">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <div class="section-title">
+                    <h1>Our Services</h1>
+                </div>
+            </div>
+
+            <div class="service-list-wrapper" >
+                <div class="col-md-12 text-center">
+                    <ul class="filter">
+                        <li class="col-md-4 col-xs-12"><a class="active" href="#" data-filter="*">All</a></li>
+                        <li class="col-md-3 col-xs-12"><a href="#" data-filter=".performance">Performance</a></li>
+                        <li class="col-md-3 col-xs-12"><a href="#" data-filter=".awareness">Awareness</a></li>
+                    </ul>
+                </div>
+
+                <div class="service-items">
+                    <div class="col-md-4 col-sm-6 awareness">
+                        <div class="service-content service">
+                            <div class="service-image">
+                                <img class="img-responsive" src="images/services/onsite_campaign.jpg" alt="">
+                            </div>
+                            <div class="service-info">
+                                <h4>Onsite Campaigns</h4>
+                                <span>Strategic banner placements on ZALORA’s desktop, mobile and app platforms.</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6 awareness performance">
+                        <div class="service-content service">
+                            <div class="service-image">
+                                <img class="img-responsive" src="images/services/paid_marketing.jpg" alt="">
+                            </div>
+                            <div class="service-info">
+                                <h4>Paid Marketing</h4>
+                                <span>Sponsored Facebook, Google and mobile ads targeted at the right customers.</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6 awareness performance">
+                        <div class="service-content service">
+                            <div class="service-image">
+                                <img class="img-responsive" src="images/services/analytics.jpg" alt="">
+                            </div>
+                            <div class="service-info">
+                                <h4>Insights & Analytics</h4>
+                                <span>Actionable data for trend predictions and brand optimisation.</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6 awareness">
+                        <div class="service-content service">
+                            <div class="service-image">
+                                <img class="img-responsive" src="images/services/content_creation.jpg" alt="">
+                            </div>
+                            <div class="service-info">
+                                <h4>Content Creation</h4>
+                                <span>In-house magazine articles for constant audience engagement.</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6 awareness">
+                        <div class="service-content service">
+                            <div class="service-image">
+                                <img class="img-responsive" src="images/services/organic_influencer.jpg" alt="">
+                            </div>
+                            <div class="service-info">
+                                <h4>Influencer Marketing</h4>
+                                <span>Social media posts alongside product endorsements via brand ambassadors.</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6 awareness">
+                        <div class="service-content service">
+                            <div class="service-image">
+                                <img class="img-responsive" src="images/services/crm.jpg" alt="">
+                            </div>
+                            <div class="service-info">
+                                <h4>CRM</h4>
+                                <span>Customer relationship management through newsletters and push notifications.</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6 performance">
+                        <div class="service">
+                            <div class="service-image">
+                                <img class="img-responsive" src="images/services/affiliates.jpg" alt="">
+                            </div>
+                            <div class="service-info">
+                                <h4>Affiliates</h4>
+                                <span>Sales generation through trusted third party websites.</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6 awareness">
+                        <div class="service-content service">
+                            <div class="service-image">
+                                <img class="img-responsive" src="images/services/brand_partnerships.jpg" alt="">
+                            </div>
+                            <div class="service-info">
+                                <h4>Brand Partnerships</h4>
+                                <span>Offline events and co-funded activities conceptualised and executed by ZALORA.</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

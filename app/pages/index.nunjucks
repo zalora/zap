@@ -1,0 +1,22 @@
+<!-- index.nunjucks -->
+{% extends "layout.nunjucks" %}
+
+{% block content %}
+
+{% include "partials/navigation.nunjucks" %}
+
+{% include "partials/slider.nunjucks" %}
+
+{% include "partials/funfacts.nunjucks" %}
+
+{% include "partials/usp.nunjucks" %}
+
+{% include "partials/services.nunjucks" %}
+
+{% include "partials/clients.nunjucks" %}
+
+{% include "partials/casestudies.nunjucks" %}
+
+{% include "partials/contact.nunjucks" %}
+
+{% endblock %}

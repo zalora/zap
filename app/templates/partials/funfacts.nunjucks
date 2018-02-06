@@ -1,0 +1,30 @@
+<section id="fun-facts">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-6 col-md-3">
+                <div class="fun-fact text-center">
+                    <h3><span>41M</span></h3>
+                    <p>Monthly Visits</p>
+                </div>
+            </div>
+            <div class="col-xs-6 col-md-3">
+                <div class="fun-fact text-center">
+                    <h3><span>14M</span></h3>
+                    <p>Active Subscribers</p>
+                </div>
+            </div>
+            <div class="col-xs-6 col-md-3">
+                <div class="fun-fact text-center">
+                    <h3><span>25-35</span></h3>
+                    <p>Core Age Group</p>
+                </div>
+            </div>
+            <div class="col-xs-6 col-md-3">
+                <div class="fun-fact text-center">
+                    <h3><span>6</span></h3>
+                    <p>Countries of operation</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

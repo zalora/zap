@@ -1,0 +1,41 @@
+#contact {
+  padding-top: 130px;
+  padding-bottom: 120px;
+}
+
+.contact-info {
+
+  .contact-content {
+    margin-bottom: 30px;
+  }
+
+  p {
+    margin-bottom: 20px;
+
+    i {
+      font-size: 16px;
+      margin-right: 10px;
+    }
+
+  }
+
+}
+
+.contact-form {
+
+  input[type="text"],
+  input[type="email"] {
+    border: 1px solid #E8E8E8;
+    padding: 8px 14px;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  textarea {
+      border: 1px solid #E8E8E8;
+      padding: 8px 14px;
+      width: 100%;
+      margin-bottom: 20px;
+  }
+
+}

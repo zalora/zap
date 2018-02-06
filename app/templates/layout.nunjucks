@@ -1,0 +1,56 @@
+<!-- layout.nunjucks -->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="initial-scale=1.0">
+        <title>ZALORA Advertising Platform</title>
+
+        <!-- Main CSS file -->
+        <link rel="stylesheet" href="dist/bootstrap.min.css" />
+        <link rel="stylesheet" href="dist/fontawesome.min.css" />
+        <link rel="stylesheet" href="dist/main.min.css" />
+        <link rel="stylesheet" href="dist/responsive.min.css" />
+
+        <!-- Favicon -->
+        <link rel="shortcut icon" href="images/icon/favicon.ico">
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/icon/apple-icon-144x144.png">
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/icon/apple-icon-114x114.png">
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/icon/apple-icon-72x72.png">
+        <link rel="apple-touch-icon-precomposed" href="images/icon/apple-icon-57x57.png">
+
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+          <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+    </head>
+    <body>
+
+        <!-- PRELOADER -->
+        <div id="st-preloader">
+            <div id="pre-status">
+                <div class="preload-placeholder"></div>
+            </div>
+        </div>
+
+        {% block content %} {% endblock %}
+
+        <!-- Scroll-up -->
+        <div class="scroll-up">
+            <ul><li><a href="#header"><i class="fa fa-angle-up"></i></a></li></ul>
+        </div>
+
+        <!-- JS -->
+        <script type="text/javascript" src="dist/jquery.min.js"></script><!-- jQuery -->
+        <script type="text/javascript" src="dist/bootstrap.min.js"></script><!-- Bootstrap -->
+        <script type="text/javascript" src="dist/jquery.parallax.js"></script><!-- Parallax -->
+        <script type="text/javascript" src="dist/jquery.isotope.min.js"></script><!-- isotope -->
+        <script type="text/javascript" src="dist/scripts.min.js"></script><!-- Scripts -->
+
+
+    </body>
+</html>
