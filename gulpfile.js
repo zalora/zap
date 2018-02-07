@@ -23,30 +23,30 @@ gulp.task('nunjucks', function() {
   .pipe(nunjucksRender({
       path: ['app/templates']
     }))
-  .pipe(gulp.dest('app'))
+  .pipe(gulp.dest('docs'))
 });
 
 gulp.task('htmlbeautify', function() {
   var options = {
     indentSize: 4
   };
-  gulp.src('app/*.html')
+  gulp.src('docs/*.html')
     .pipe(htmlbeautify(options))
-    .pipe(gulp.dest('app'))
+    .pipe(gulp.dest('docs'))
 });
 
 gulp.task('scripts', function() {
     return gulp.src(['app/js/scripts.js', 'app/js/jquery.parallax.js'])
         .pipe(rename({suffix: '.min'}))
         .pipe(uglify())
-        .pipe(gulp.dest('app/dist'));
+        .pipe(gulp.dest('docs/dist'));
 });
 
 gulp.task('styles', function(){
     return gulp.src('app/css/*.css')
     .pipe(cleanCSS())
     .pipe(rename({suffix: '.min'}))
-    .pipe(gulp.dest('app/dist'))
+    .pipe(gulp.dest('docs/dist'))
 });
 
 gulp.task('default', ['sass', 'scripts', 'styles', 'nunjucks', 'htmlbeautify']);
