@@ -1,0 +1,100 @@
+{% extends "blog.nunjucks" %}
+
+{% block content %}
+
+{% include "partials/casestudynav.nunjucks" %}
+
+<section id="slider">
+    <div id="hero" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="item active" style="background-image: url(images/case-studies/calvin_klein.jpg)"></div>
+        </div>
+    </div>
+</section>
+
+<section style="padding-top:75px;padding-bottom:0px">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <div class="section-title">
+                    <h1>Success Story</h1>
+                    <p>
+                        Calvin Klein, already a market leader in the premium segment, gained greater brand exposure, sales and data insights
+                        in Singapore, Malaysia, Hong Kong and Taiwan, thanks to ZALORA’s strategic and curated campaigns.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="fun-facts">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-6 col-md-3">
+                <div class="fun-fact text-center">
+                    <h3><span>1.8x</span></h3>
+                    <p>Daily Sales</p>
+                </div>
+            </div>
+            <div class="col-xs-6 col-md-3">
+                <div class="fun-fact text-center">
+                    <h3><span>8.5x</span></h3>
+                    <p>Average Visitors Per Day</p>
+                </div>
+            </div>
+            <div class="col-xs-6 col-md-3">
+                <div class="fun-fact text-center">
+                    <h3><span>7x</span></h3>
+                    <p>Pageviews</p>
+                </div>
+            </div>
+            <div class="col-xs-6 col-md-3">
+                <div class="fun-fact text-center">
+                    <h3><span>5x</span></h3>
+                    <p>Time Spent On Page</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section style="padding-top:75px;padding-bottom:40px">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 col-xs-12 text-center">
+                <div class="section-title">
+                    <h4>Objective</h4>
+                    <h5>Expanding Brand Presence</h5>
+                    <p>
+                      Calvin Klein, a premium label that’s well-established in the market, wanted more top-of-mind awareness from consumers in Asia.
+                      The brand also hoped to generate a significant increase in sales as a result of the increased exposure.
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-4 col-xs-12 text-center">
+                <div class="section-title">
+                    <h4>Solution</h4>
+                    <h5>Omni-Channel Pushes</h5>
+                    <p>
+                      ZALORA came up with a tailored plan in which paid marketing and onsite campaigns were ran across various channels:
+                      ZALORA’s website (desktop, app and mobile web), newsletters and social media platforms.
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-4 col-xs-12 text-center">
+                <div class="section-title">
+                    <h4>Result</h4>
+                    <h5>Next-Level Sales Uplift & Data Insights</h5>
+                    <p>
+                      By running both onsite and paid marketing campaigns simultaneously, Calvin Klein’s brand awareness and
+                      sales figures saw an exponential increase. Following the campaigns, Calvin Klein also gathered insights into specific customer demographics
+                      that were driving their revenue on ZALORA, helping them build a customer-centric brand for greater success ahead.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+{% endblock %}

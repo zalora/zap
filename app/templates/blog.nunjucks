@@ -37,11 +37,6 @@
 
         {% block content %} {% endblock %}
 
-        <!-- Scroll-up -->
-        <div class="scroll-up">
-            <ul><li><a href="#header"><i class="fa fa-angle-up"></i></a></li></ul>
-        </div>
-
         <!-- JS -->
         <script type="text/javascript" src="dist/jquery.min.js"></script><!-- jQuery -->
         <script type="text/javascript" src="dist/bootstrap.min.js"></script><!-- Bootstrap -->

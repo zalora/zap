@@ -10,7 +10,7 @@
                 <p class="contact-content">Ready to take your brand to the next level? Send us a message and we will get in touch with you shortly.</p>
                 <p class="st-address"><i class="fa fa-map-marker"></i> <a target="_blank" href="https://www.google.com.sg/maps/place/Keppel+Towers/1.2743106,103.8398768,17z/data=!3m1!4b1!4m5!3m4!1s0x31da1974c7afb233:0x7f3fd3477cf587c!8m2!3d1.2743052!4d103.8420655?hl=en"><strong>Keppel Towers , 10 Hoe Chiang Road, #18-01, 089315</strong></a></p>
                 <p class="st-email"><i class="fa fa-envelope-o"></i> <a href="mailto:ads@zalora.com?Subject=ZAP%20Interest"><strong>ads@zalora.com</strong></a></p>
-                <p class="st-website"><i class="fa fa-globe"></i> <strong><a href="https://www.zalora.com">www.zalora.com</a></strong></p>
+                <p class="st-website"><i class="fa fa-globe"></i> <strong><a target="_blank" href="https://www.zalora.com">www.zalora.com</a></strong></p>
             </div>
         </div>
     </div>

@@ -1,0 +1,102 @@
+{% extends "blog.nunjucks" %}
+
+{% block content %}
+
+{% include "partials/casestudynav.nunjucks" %}
+
+<section id="slider">
+    <div id="hero" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="item active" style="background-image: url(images/case-studies/odlo.jpg)"></div>
+        </div>
+    </div>
+</section>
+
+<section style="padding-top:75px;padding-bottom:0px">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <div class="section-title">
+                    <h1>Success Story</h1>
+                    <p style="font-size:16px;padding:25px;">
+                        Odlo wanted its success in Europe to be replicated in Singapore, and ZALORA Advertising Platform proved to be the bridge
+                        that connected the sports performance brand to customers who were focused on fitness.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="fun-facts">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-6 col-md-3">
+                <div class="fun-fact text-center">
+                    <h3><span>1.5x</span></h3>
+                    <p>Daily Sales</p>
+                </div>
+            </div>
+            <div class="col-xs-6 col-md-3">
+                <div class="fun-fact text-center">
+                    <h3><span>77x</span></h3>
+                    <p>Average Visitors Per Day</p>
+                </div>
+            </div>
+            <div class="col-xs-6 col-md-3">
+                <div class="fun-fact text-center">
+                    <h3><span>56x</span></h3>
+                    <p>Pageviews</p>
+                </div>
+            </div>
+            <div class="col-xs-6 col-md-3">
+                <div class="fun-fact text-center">
+                    <h3><span>32x</span></h3>
+                    <p>Time Spent On Page</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section style="padding-top:75px;padding-bottom:40px">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 col-xs-12 text-center">
+                <div class="section-title">
+                    <h4>Objective</h4>
+                    <h5>Racing to the Top of Consumer’s Minds</h5>
+                    <p>
+                      Odlo, a premium sports brand originating from Switzerland, enjoys enormous success in Europe but faced difficulty breaking into Singapore.
+                      With no offline presence, Odlo had limited visibility to its potential customers.
+                      As such, they engaged ZALORA Advertising Platform as a means to build brand presence and drive performance.
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-4 col-xs-12 text-center">
+                <div class="section-title">
+                    <h4>Solution</h4>
+                    <h5>Targeting of Sports-Centric Customers</h5>
+                    <p>
+                      Odlo ran a paid advertising campaign via ZALORA Advertising Platform, targeting fitness enthusiasts through Facebook,
+                      Mobile and Google Display Network. Three onsite campaigns were also pushed concurrently to introduce the brand
+                      to existing ZALORA customers.
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-4 col-xs-12 text-center">
+                <div class="section-title">
+                    <h4>Result</h4>
+                    <h5>A Podium Finish for Odlo</h5>
+                    <p>
+                      Through ZALORA Advertising Platform, Odlo enjoyed an exponential increase in brand awareness which put it
+                      alongside other top sports labels in the market. Post-campaign, Odlo also gained valuable insights into their
+                      customers by analysing the bounce rates through each customer funnel and understanding their main customer demographics.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+{% endblock %}
