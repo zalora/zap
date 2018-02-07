@@ -161,10 +161,16 @@
         padding-bottom: 10%;
     }
 
-    #our-services, #pricing, #our-works, #unique-selling-points{
-        padding-top: 0px;
+    #our-services, #our-works, #unique-selling-points{
+        padding-top: 100px;
         padding-bottom: 100px;
     }
+
+    #unique-selling-points{
+        padding-top: 10px;
+        padding-bottom: 100px;
+    }
+
 
     .usp {
         margin-top: 50px;
