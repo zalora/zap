@@ -1,6 +1,6 @@
-# Project Title
+# ZAP Microsite https://ads.zalora.com/
 
-ZAP - ZALORA Advertising Platform is responsive website used to advertise the marketing services offered to brands
+ZALORA Advertising Platform microsite is responsive website used to advertise the marketing services offered to brands
 
 ## Getting Started
 
@@ -22,10 +22,7 @@ gulp
 
 ## Deployment
 
-GitHub Pages will read everything to publish your site, including the CNAME file, from the /docs folder.
-```
-https://help.github.com/articles/configuring-a-publishing-source-for-github-pages/
-```
+GitHub Pages will read everything to publish your site, including the CNAME file, from the [/docs](https://help.github.com/articles/configuring-a-publishing-source-for-github-pages/) folder.
 
 ## Built With
 
