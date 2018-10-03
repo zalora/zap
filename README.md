@@ -22,7 +22,10 @@ gulp
 
 ## Deployment
 
-GitHub Pages will read everything to publish your site, including the CNAME file, from the [/docs](https://help.github.com/articles/configuring-a-publishing-source-for-github-pages/) folder.
+GitHub Pages will read everything to publish your site, including the CNAME file, from the /docs folder.
+```
+https://help.github.com/articles/configuring-a-publishing-source-for-github-pages/
+```
 
 ## Built With
 
