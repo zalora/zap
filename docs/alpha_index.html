@@ -46,10 +46,145 @@
       if ((host == window.location.host) && (window.location.protocol != "https:"))
           window.location.protocol = "https";
       </script>
+
+<style>
+.form 
+{
+  display: inline-block;
+  width: 24%;
+  height:100%;
+  position: relative;
+  color: #FFFFFF;
+  z-index: 0;
+  overflow: hidden;
+  top: 2%;
+}
+.ss-form-question
+{
+    margin:15px 0;
+}
+
+
+.ss-form-question label {
+
+    display: block;
+    float: left;
+    width: 0%;     /*size of the form label -- before textarea*/
+}
+.ss-form-question input{
+    height:27px;
+    width: 100%;
+    border:1px solid #404040;
+    background-color: #EDEDED;
+    padding-left: 20px;
+}
+
+.ss-form-question select
+{
+    height:27px;
+    width: 100%;
+    border:1px solid #404040;
+    padding-left: 20px;
+    background-color: #EDEDED;
+}
+.ss-form-question option
+{
+  color: black;
+}
+
+.ss-form-question
+{
+  overflow: hidden;
+  position: relative;
+}
+
+.ss-form-question, .ss-form-question select
+{
+  width: 100%;
+}
+
+@-moz-document url-prefix()
+{
+  form div.ss-form-question select { width: 100%; }
+}
+
+
+.ss-form-question textarea
+{
+  background-color: #EDEDED;
+  padding-left: 20px;
+  width: 100%; 
+  height: 80px;
+  resize: none;
+  border:1px solid #404040;
+}
+.ss-form-question select:focus
+{ 
+    outline: none !important;
+    border:2px solid #ffbf00;
+    border-bottom-color: #ffbf00;
+    border-bottom-style: solid;
+    /*box-shadow: 0 0 10px #719ECE;*/
+    background-color: transparent;
+    color: lightgrey;
+}
+
+.ss-form-question input:focus
+{ 
+    outline: none !important;
+    border:2px solid #ffbf00;
+    color: grey !important;
+    background-color: transparent;
+}
+.ss-form-question textarea:focus
+{ 
+    outline: none !important;
+    border:2px solid #ffbf00;
+    /*box-shadow: 0 0 10px #719ECE;*/
+    background-color: transparent;
+    color: grey;
+}
+
+.ss-navigate
+{
+    display: block;
+}
+ 
+#ss-submit
+{
+    letter-spacing:2px;
+    color:#FFF;
+    font-family:Apercu,arial,sans-serif;
+    display:inline-block;
+    text-transform:uppercase
+}
+
+#ss-submit
+{
+  background:#000;
+  padding:12px 15px;
+  margin:0 auto;
+  font-size:12px;
+  line-height:5px;
+  text-align:center;
+  border:1px solid #FFF;
+  transition:all .3s ease-out;
+  -moz-transition:all .3s ease-out;
+  -webkit-transition:all .3s ease-out
+}
+#ss-submit:hover
+{
+  background:#FFF;
+  color:#000;
+  border:1px solid #000;
+  cursor:pointer
+}
+</style>
+
       </head>
 
 
-</head>
+
 
 <body>
 
@@ -417,7 +552,72 @@
                     <p class="st-email"><i class="fa fa-envelope-o"></i> <a href="mailto:ads@zalora.com?Subject=ZAP%20Interest"><strong>ads@zalora.com</strong></a></p>
                     <p class="st-website"><i class="fa fa-globe"></i> <strong><a target="_blank" href="https://www.zalora.com">www.zalora.com</a></strong></p>
                 </div>
+
+                <div class="col-md-12 contact-info text-center">
+                   <!--START FORM DIV-->
+  <div class="form">
+            
+      <script type="text/javascript">var submitted=false;</script>
+      <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted){window.location='http://www.zalora.com.my/success/';}"></iframe>
+
+
+      <!--START OF FORM-->
+      <form action="https://docs.google.com/a/zalora.com/forms/d/1wdGki1qSRmRxrYtEvNE4q9mShPplp7CojjZBF7eV4pE/formResponse" method="POST" id="ss-form" target="hidden_iframe" onsubmit="submitted=true">
+        <ol style="padding-left: 0">
+        
+        <!--NAME TEXT FIELD-->
+        <div class="ss-form-question errorbox-good">
+          <div dir="ltr" class="ss-item ss-item-required ss-text"> 
+            <div class="ss-form-entry">
+              <label aria-hidden="true" class="ss-q-item-label" for="entry_267093668">
+                <div class="ss-q-help ss-secondary-text" dir="ltr"></div>
+              </label>
+
+              <input type="text" name="entry.267093668" value="" class="ss-q-short" id="entry_267093668" dir="auto" aria-label="Name" aria-required="true" required="" title="" placeholder="Name*">
+              <div class="error-message"></div>
             </div>
+          </div>
+        </div> 
+
+
+        <!--EMAIL TEXT FIELD-->
+        <div class="ss-form-question errorbox-good">
+          <div dir="ltr" class="ss-item ss-item-required ss-text">
+            <div class="ss-form-entry">
+              <label aria-hidden="true" class="ss-q-item-label" for="entry_1360680132">
+                <div class="ss-q-help ss-secondary-text" dir="ltr"></div>
+              </label>
+              <input type="text" name="entry.1360680132" value="" class="ss-q-short" id="entry_1360680132" dir="auto" aria-label="Email Address  Must match pattern" aria-required="true" required="" pattern=".*^[_A-Za-z0-9-\+]+(\.[_A-Za-z0-9-]+)*@[A-Za-z0-9-]+(\.[A-Za-z0-9]+)*(\.[A-Za-z]{2,})$.*" title="Must match pattern" placeholder="Email*">
+            </div>
+          </div>
+        </div> 
+
+        
+        <!--COMPANY NAME TEXT FIELD-->
+        <div class="ss-form-question errorbox-good">
+          <div dir="ltr" class="ss-item  ss-text">
+            <div class="ss-form-entry">
+              <label aria-hidden="true" class="ss-q-item-label" for="entry_556230192">
+                <div class="ss-q-help ss-secondary-text" dir="ltr"></div>
+              </label>
+              <input type="text" name="entry.556230192" value="" class="ss-q-short" id="entry_556230192" dir="auto" aria-label="Name" title="" placeholder="Company Name*">
+              <div class="error-message"></div>
+            </div>
+          </div>
+        </div> 
+
+      
+        <!--QUESTIONS/COMMENTS TEXT FIELD-->
+        <div class="ss-form-question errorbox-good">
+          <div dir="ltr" class="ss-item  ss-text">
+            <div class="ss-form-entry">
+              <label aria-hidden="true" class="ss-q-item-label" for="entry_1500266988">
+                <div class="ss-q-help ss-secondary-text" dir="ltr"></div>
+              </label>
+              <textarea name="entry.1500266988" value="" class="ss-q-short" id="entry_1500266988" dir="auto" aria-label="Questions/Comments" title="" placeholder="Questions/Comments">
+
+            </div>
+              <!--form ended-->
         </div>
     </section>
 
